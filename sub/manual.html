@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baume et Mercier</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/sub.css">
+    <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap');
+    </style>
+
+    <script defer src="../js/jquery-3.7.1.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="../js/main.js"></script>
+</head>
+
+<body>
+    <header id="header" class="sub">
+        <div class="wrap">
+            <h1><a href="../index.html"></a></h1>
+            <nav>
+                <ul class="gnb">
+                    <li>시계</li>
+                    <li>메종</li>
+                    <li>서비스</li>
+                    <li>매장찾기</li>
+                </ul>
+            </nav>
+            <button class="search"></button>
+            <div class="btn_right">
+                <button class="btn_ham">
+                    <div></div>
+                </button>
+                <button class="world"></button>
+            </div>
+            <div class="mgnb">
+                <ul>
+                    <li>
+                        <div class="mgnb_category">
+                            <div>시계</div>
+                            <div><img src="../img/ctrl.svg" alt=""></div>
+                        </div>
+                        <div class="sub_menu">
+                            <ul>
+                                <li><span><a href="baumatic_watch.html">모든 시계</a></span></li>
+                                <li><span><a href="baumatic_watch.html">남성용 시계</a></span></li>
+                                <li><span><a href="baumatic_watch.html">여성용 시계</a></span></li>
+                                <li><span><a href="baumatic_watch.html">크로노그래프 시계</a></span></li>
+                                <li><span><a href="baumatic_watch.html">문페이즈 시계</a></span></li>
+                                <li><span><a href="baumatic_watch.html">듀얼 타임 시계</a></span></li>
+                                <li><span><a href="baumatic_watch.html">보매틱 시계</a></span></li>
+                            </ul>
+                            <ol class="depth2">
+                                <li><a href="baumatic_watch.html">
+                                        <div><img src="../img/menu_riviera.png" alt=""></div><span>RIVIERA</span>
+                                    </a></li>
+                                <li><a href="baumatic_watch.html">
+                                        <div><img src="../img/menu_clifton.png" alt=""></div><span>CLIFTON</span>
+                                    </a></li>
+                                <li><a href="baumatic_watch.html">
+                                        <div><img src="../img/menu_classima.png" alt=""></div><span>CLASSIMA</span>
+                                    </a></li>
+                                <li><a href="baumatic_watch.html">
+                                        <div><img src="../img/menu_hampton.png" alt=""></div><span>HAMPTON</span>
+                                    </a></li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mgnb_category">
+                            <div>메종</div>
+                            <div><img src="../img/ctrl.svg" alt=""></div>
+                        </div>
+                        <div class="sub_menu">
+                            <ul>
+                                <li><a href="heritage.html"><span>역사</span></a></li>
+                                <li><a href="heritage.html"><span>SWISS MADE EXCELLENCE</span></a></li>
+                                <li><a href="heritage.html"><span>우리의 약속</span></a></li>
+                            </ul>
+                            <ol class="depth2">
+                                <li><a href="heritage.html">
+                                        <div><img src="../img/menu_maison_1.png" alt=""></div>
+                                    </a></li>
+                                <li><a href="heritage.html">
+                                        <div><img src="../img/menu_maison_2.png" alt=""></div>
+                                    </a></li>
+                                <li><a href="heritage.html">
+                                        <div><img src="../img/menu_maison_3.png" alt=""></div>
+                                    </a></li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mgnb_category">
+                            <div>서비스</div>
+                            <div><img src="../img/ctrl.svg" alt=""></div>
+                        </div>
+                        <div class="sub_menu">
+                            <ul>
+                                <li><a href="manual.html"><span>사용자 지침</span></a></li>
+                                <li><a href="manual.html"></a><span>보증</span></a></li>
+                                <li><a href="manual.html"></a><span>자주 묻는 질문</span></a></li>
+                                <li><a href="manual.html"></a><span>문의하기</span></a></li>
+                                <li><a href="manual.html"></a><span>BAUMATIC 보증연장</span></a></li>
+                            </ul>
+                            <ol class="depth2">
+                                <li>
+                                    <a href="manual.html">
+                                        <div><img src="../img/menu_service_1.png" alt=""></div><span>보증연장</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="manual.html">
+                                        <div><img src="../img/menu_service_2.png" alt=""></ </a>
+                                </li>
+                                <li>
+                                    <a href="manual.html">
+                                        <div><img src="../img/menu_service_3.png" alt=""></div><span>스트랩 제공</span>
+                                    </a>
+                                </li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>매장찾기</li>
+                </ul>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><span><a href="baumatic_watch.html">모든 시계</a></span></li>
+                    <li><span><a href="baumatic_watch.html">남성용 시계</a></span></li>
+                    <li><span><a href="baumatic_watch.html">여성용 시계</a></span></li>
+                    <li><span><a href="baumatic_watch.html">크로노그래프 시계</a></span></li>
+                    <li><span><a href="baumatic_watch.html">문페이즈 시계</a></span></li>
+                    <li><span><a href="baumatic_watch.html">듀얼 타임 시계</a></span></li>
+                    <li><span><a href="baumatic_watch.html">보매틱 시계</a></span></li>
+                </ul>
+                <ol class="collection">
+                    <h3>컬렉션</h3>
+                    <li><a href="baumatic_watch.html">
+                            <div><img src="../img/menu_riviera.png" alt=""></div><span>RIVIERA</span>
+                        </a></li>
+                    <li><a href="baumatic_watch.html">
+                            <div><img src="../img/menu_clifton.png" alt=""></div><span>CLIFTON</span>
+                        </a></li>
+                    <li><a href="baumatic_watch.html">
+                            <div><img src="../img/menu_classima.png" alt=""></div><span>CLASSIMA</span>
+                        </a></li>
+                    <li><a href="baumatic_watch.html">
+                            <div><img src="../img/menu_hampton.png" alt=""></div><span>HAMPTON</span>
+                        </a></li>
+                </ol>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="heritage.html"><span>역사</span></a></li>
+                    <li><a href="heritage.html"><span>SWISS MADE EXCELLENCE</span></a></li>
+                    <li><a href="heritage.html"><span>우리의 약속</span></a></li>
+                </ul>
+                <ol class="maison">
+                    <h3>메종 보메 메르시에</h3>
+                    <li><a href="heritage.html">
+                            <div><img src="../img/menu_maison_1.png" alt=""></div>
+                        </a></li>
+                    <li><a href="heritage.html">
+                            <div><img src="../img/menu_maison_2.png" alt=""></div>
+                        </a></li>
+                    <li><a href="heritage.html">
+                            <div><img src="../img/menu_maison_3.png" alt=""></div>
+                        </a></li>
+                    <p>보메 & 메르시에의 이야기</p>
+                </ol>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="manual.html"><span>사용자 지침</span></a></li>
+                    <li><a href="manual.html"><span>보증</span></a></li>
+                    <li><a href="manual.html"><span>자주 묻는 질문</span></a></li>
+                    <li><a href="manual.html"><span>문의하기</span></a></li>
+                    <li><a href="manual.html"><span>BAUMATIC 보증연장</span></a></li>
+                </ul>
+                <ol class="service">
+                    <h3>서비스</h3>
+                    <li><a href="manual.html">
+                            <div><img src="../img/menu_service_1.png" alt=""></div><span>보증연장</span>
+                        </a></li>
+                    <li><a href="manual.html">
+                            <div><img src="../img/menu_service_2.png" alt=""></div><span>서비스 문의하기</span>
+                        </a></li>
+                    <li><a href="manual.html">
+                            <div><img src="../img/menu_service_3.png" alt=""></div><span>스트랩 제공</span>
+                        </a></li>
+                </ol>
+            </div>
+        </div>
+        <div class="language">
+            <div class="dim"></div>
+            <div class="lang_wrap">
+                <h2>국가/지역을 선택하세요.</h2>
+                <ul class="region">
+                    <li class="active">AMERICAS</li>
+                    <li>ASIA</li>
+                    <li>EUROPE</li>
+                    <li>MIDDLE EAST - AFRICA</li>
+                    <li>INTERNATIONAL</li>
+                </ul>
+                <ol class="americas">
+                    <li>Canada (EN)</li>
+                    <li>Canada (FR)</li>
+                    <li>Chile</li>
+                    <li>Costa Rica</li>
+                    <li>Ecuador</li>
+                    <li>Guatemala</li>
+                    <li>Panama</li>
+                    <li>Paraguay</li>
+                    <li>USA</li>
+                </ol>
+                <ol class="asia">
+                    <li>Australia</li>
+                    <li>China (中国)</li>
+                    <li>Hong Kong SAR, China (EN)</li>
+                    <li>Korea (KR)</li>
+                    <li>India</li>
+                    <li>Indonesia (EN)</li>
+                    <li>Japan (日本)</li>
+                    <li>Philippines (EN)</li>
+                    <li>Singapore (EN)</li>
+                    <li>Vietnam (EN)</li>
+                </ol>
+                <ol class="europe">
+                    <li>Albania (EN)</li>
+                    <li>Belgium (EN)</li>
+                    <li>Bulgaria (EN)</li>
+                    <li>Croatia (EN)</li>
+                    <li>Cyprus (EN)</li>
+                    <li>Czech Republic (EN)</li>
+                    <li>Denmark (EN)</li>
+                    <li>Deutschland</li>
+                    <li>España</li>
+                    <li>Finland (EN)</li>
+                    <li>France</li>
+                    <li>Greece (EN)</li>
+                    <li>Hungary (EN)</li>
+                    <li>Ireland</li>
+                    <li>Italia</li>
+                    <li>Luxembourg (EN)</li>
+                    <li>Malta (EN)</li>
+                    <li>Monaco (EN)</li>
+                    <li>Österreich</li>
+                    <li>Poland (EN)</li>
+                    <li>Portugal</li>
+                    <li>Romania (EN)</li>
+                    <li>Schweiz (DE)</li>
+                    <li>Suisse (FR)</li>
+                    <li>Svizzera (IT)</li>
+                    <li>Slovakia (EN)</li>
+                    <li>Slovenia (EN)</li>
+                    <li>Sweden (EN)</li>
+                    <li>The Netherlands (EN)</li>
+                    <li>United Kingdom</li>
+                </ol>
+                <ol class="africa">
+                    <li>لإمارات العربية المتحدة (العربية)</li>
+                    <li>United Arab Emirates (EN)</li>
+                    <li>South Africa</li>
+                </ol>
+                <ol class="International">
+                    <li>International (EN)</li>
+                    <li>International (FR)</li>
+                    <li>International (ES)</li>
+                    <li>International (PT)</li>
+                    <li>دولي (عربي)</li>
+                </ol>
+                <button class="btn_close">닫기버튼</button>
+            </div> <!-- language -->
+        </div>
+        <div class="search_menu">
+            <form action="#">
+                <fieldset>
+                    <legend>검색</legend>
+                    <input type="search" name="" id="" placeholder="검색어를 입력하세요.">
+                    <button class="btn_search"></button>
+                    <button class="btn_close"></button>
+                </fieldset>
+            </form>
+        </div>
+    </header>
+    <section>
+        <div class="content_wrap">
+            <div class="breadcrumbles">
+                <ul>
+                    <li><a href="../index.html"><span>Baume & Mercier</span></a></li>
+                    <li><a href="#"><span>서비스</span></a></li>
+                    <li><a href="#"><span>사용자 지침</span></a></li>
+                </ul>
+            </div>
+            <div class="manual_title">
+                <h2>사용자 지침</h2>
+                <h3>User Manuals</h3>
+            </div>
+            <div class="manual_list">
+                <div class="inner">
+                    <h2>관리 권장 사항</h2>
+                    <p>고객님의 보메 메르시에 시계는 세심한 설계와 제작 과정을 거쳐 제작되었습니다. 여기에 제시된 권장 사항은 시계를 오랫동안 완벽하게 작동하는 상태로 유지하는 데 도움이 될
+                        것입니다.
+                    </p>
+                    <p>Baume & Mercier 시계는 하루 24시간 끊임없이 작동하는 고정밀 기기이므로, 시간이 지나도 정밀성과 방수 기능을 유지하려면 정기적인 유지관리가 필요합니다.
+                    </p>
+                    <ul class="manual_img">
+                        <li class="active">
+                            <div><img src="img/manual_1.png" alt=""></div>
+                            <span>서비스 간격</span>
+                        </li>
+                        <li>
+                            <div><img src="img/manual_2.png" alt=""></div>
+                            <span>방수성</span>
+                        </li>
+                        <li>
+                            <div><img src="img/manual_3.png" alt=""></div>
+                            <span>와인딩</span>
+                        </li>
+                        <li>
+                            <div><img src="img/manual_4.png" alt=""></div>
+                            <span>크라운</span>
+                        </li>
+                        <li>
+                            <div><img src="img/manual_5.png" alt=""></div>
+                            <span>캘린더 설정</span>
+                        </li>
+                        <li>
+                            <div><img src="img/manual_6.png" alt=""></div>
+                            <span>충격과 진동</span>
+                        </li>
+                        <li>
+                            <div><img src="img/manual_7.png" alt=""></div>
+                            <span>배터리 교체</span>
+                        </li>
+                        <li>
+                            <div><img src="img/manual_8.png" alt=""></div>
+                            <span>자성</span>
+                        </li>
+                        <li>
+                            <div><img src="img/manual_9.png" alt=""></div>
+                            <span>온도</span>
+                        </li>
+                        <li>
+                            <div><img src="img/manual_10.png" alt=""></div>
+                            <span>화학 제품</span>
+                        </li>
+                        <li>
+                            <div><img src="img/manual_11.png" alt=""></div>
+                            <span>청소</span>
+                        </li>
+                        <li>
+                            <div><img src="img/manual_12.png" alt=""></div>
+                            <span>스트랩</span>
+                        </li>
+                        <li>
+                            <div><img src="img/manual_14.png" alt=""></div>
+                            <span>진주</span>
+                        </li>
+                        <li>
+                            <div><img src="img/manual_13.png" alt=""></div>
+                            <span>청동</span>
+                        </li>
+
+                    </ul>
+                    <ul class="manual_txt">
+                        <li>
+                            <h3>서비스 간격</h3>
+                            <p>서비스 간격은 시계의 사용 방식과 착용 환경에 따라 달라질 수 있습니다.</p>
+                            <p>예를 들어 방수 기능은 개스킷의 자연적 노화에 의해 영향을 받을 수 있지만, 와인딩 크라운의 정기적인 사용, 충격, 땀, 화장품 사용, 온도 변화 등의 다른
+                                요인에 의해서도 영향을 받을 수 있습니다.</p>
+                            <p>매년 방수 기능을 점검하고, 3~5년마다 당사 서비스 센터에서 전체 서비스를 받으시는 것이 좋습니다.</p>
+                            <b>Baumatic 무브먼트가 장착된 시계에 대한 참고 사항</b>
+                            <p>새로운 윤활유를 사용하면 서비스 간격을 연장할 수 있습니다(3~5년이 아닌 5~7년).</p>
+                        </li>
+                        <li>
+                            <h3>방수성</h3>
+                            <p>빈티지 모델을 포함한 일부 특정 모델을 제외하고, 보메 메르시에 시계는 최소 30m 방수 기능을 갖추고 있습니다. 모델의 방수 기능이 30m를 초과하는 경우,
+                                케이스 뒷면에 수심이 표시되어 있습니다.</p>
+                            <p>방수 기능이 있는 시계는 먼지, 습기, 그리고 침수로 인한 손상 위험으로부터 무브먼트를 보호합니다. 따라서 일상생활에서 빗속, 샤워, 수영 등 어떤 상황에서든
+                                방수 기능을 유지합니다. 하지만 자동차나 정원 청소 기기에서 나오는 고압의 물 분사는 피해야 하며, 제트 스키 등 격렬한 수상 스포츠를 할 때 발생할 수 있는
+                                충격으로부터도 보호해야 합니다.</p>
+                            <p>시계의 방수 기능은 영구적으로 보장되지 않습니다. 방수 기능을 담당하는 개스킷은 자연적인 노화뿐만 아니라, 와인딩 크라운의 정기적인 사용, 충격, 그리고 땀,
+                                화장품 사용, 온도 변화 등의 요인에 의해 물리적으로 손상될 수 있습니다.</p>
+                            <p>이것이 우리가 매년, 특히 ​​여름 휴가 전에 방수 기능을 점검할 것을 권장하는 이유입니다.</p>
+                            <b>경고</b>
+                            <p>시계가 물에 잠겼을 때는 크라운이 단단히 닫혀 있는지(모델에 따라 누르거나 조여져 있는지) 확인하고, 물이 케이스 안으로 들어갈 수 있으므로 푸시 버튼을 누르지
+                                마세요.</p>
+                            <p>시계 내부에 결로 현상이 발견되면 즉시 당사의 공인 판매점 이나 서비스 센터 로 가져가시기 바랍니다 .</p>
+                        </li>
+                        <li>
+                            <h3>와인딩</h3>
+                            <b>와인딩 자동 시계</b>
+                            <p>자동 또는 셀프 와인딩 기계식 시계는 착용자의 손목 움직임에 따라 자동으로 태엽을 감는 정교한 메커니즘을 갖추고 있습니다. 완전히 감았을 때 자동 시계의 파워
+                                리저브는 모델에 따라 약 40시간에서 120시간 사이입니다. 누적된 파워 리저브 덕분에 시계는 밤새도록 작동하면서도 편안한 작동 여유를 유지할 수 있습니다.
+                                그러나 며칠 동안 시계를 착용하지 않으면 시계가 멈추거나 파워 리저브가 부족하여 최적의 정확도를 보장할 수 없게 되는데, 이는 시계가 완전히 감겼을 때
+                                도달합니다. 이 경우, 다시 사용하기 전에 크라운을 시계 방향으로 약 20바퀴 돌려 수동으로 감아 모든 조건에서 완벽하게 작동하는지 확인하는 것이 좋습니다.
+                                몇 시간 동안 시계를 착용하면 활동 수준에 따라 시계가 완벽하게 감겨 있을 것입니다.</p>
+                            <b>참고</b>
+                            <p>자동 태엽의 효율은 착용자 손목의 움직임과 직결됩니다. 움직임이 충분하지 않으면 착용 중이라도 시계가 멈출 수 있습니다. 이 경우, 용두를 시계 방향으로 약
+                                20바퀴 돌려 수동으로 태엽을 감아주는 것을 권장합니다. 또한, 시계줄은 착용자 손목에 꼭 맞아야 합니다. 시계줄이 너무 느슨하면 시계가 제대로 감겨지지 않을
+                                수 있습니다.</p>
+                            <p>
+                                시계를 감기 전에 손목에서 시계를 분리해야 합니다. 이렇게 하면 시계를 감는 동안 크라운 스템이 완전히 똑바로 유지되고 크라운이나 무브먼트가 손상될 위험을
+                                방지할 수 있습니다.
+                            </p>
+                            <p>자동 태엽 시계를 의도적으로 흔들어 태엽을 감아주지 마십시오. 효과가 없을 뿐만 아니라 무브먼트가 손상될 수 있습니다.</p>
+                            <p> 시계를 몇 달 동안 착용하지 않더라도 정기적으로 수동으로 태엽을 감아주시는 것이 좋습니다. 이렇게 하면 오일이 무브먼트 축 위로 굳거나 흘러내리는 것을 방지할
+                                수 있습니다.</p>
+                            <b>보매틱 무브먼트가 장착된 시계에 대한 참고 사항</b>
+                            <p>보매틱 시계는 120시간(5일)의 파워 리저브를 제공하여 긴 주말이나 일주일 후 착용을 해제하고 다시 착용할 수 있어 착용감이 더욱 향상됩니다. 또한, 다른
+                                시계들은 시계를 완전히 감았을 때 최적의 정밀도에 도달하는 것과 달리, 파워 리저브 기간 동안 안정적으로 정확한 정확도를 유지합니다. 또한, 보매틱 시계를
+                                손목에 착용하기 전에 충분한 파워 리저브를 확보하려면 일반 무브먼트의 경우 20회가 아닌 50회 정도 크라운을 돌려야 합니다. 보매틱 시계는 파워 리저브가 더
+                                높기 때문입니다.</p>
+                            <b>수동 시계 와인딩</b>
+                            <p>수동 또는 핸드와인딩 기계식 시계는 용두를 돌려 수동으로 태엽을 감아야 합니다. 용두가 더 이상 움직이지 않을 때까지 돌려야 합니다. 용두가 더 이상 움직이지
+                                않으면 무브먼트가 심각하게 손상될 위험이 있습니다.</p>
+                            <p>시계를 감기 전에 손목에서 시계를 분리해야 합니다. 이렇게 하면 시계를 감는 동안 크라운 스템이 완전히 똑바로 유지되고 크라운이나 무브먼트가 손상될 위험을
+                                방지할 수 있습니다.</p>
+                            <p>수동 기계식 시계의 파워 리저브는 모델에 따라 약 40시간에서 90시간 사이입니다. 이 시간이 지나면 전력 공급이 부족해져 시계가 더 이상 작동하지 않습니다.
+                            </p>
+                            <p>매일 아침, 손목에 차기 전에 시계를 감아주시는 것이 좋습니다.</p>
+                            <p>마지막으로, 시계를 몇 달 동안 착용하지 않더라도 정기적으로 태엽을 감아주시는 것이 좋습니다. 이렇게 하면 오일이 무브먼트 축 위로 굳거나 흘러내리는 것을
+                                방지할 수 있습니다.</p>
+                        </li>
+                        <li>
+                            <h3>크라운</h3>
+                            <p>크라운을 사용한 후에는 시계를 습기로부터 보호하고 케이스 내부로 물이 들어가는 것을 방지하기 위해 크라운을 단단히 닫아 두십시오(모델에 따라 누르거나 조여
+                                두십시오).</p>
+                        </li>
+                        <li>
+                            <h3>캘린더 설정</h3>
+                            <p>날짜, 요일, 월, 년, 달의 위상 등의 달력 기능이 있는 대부분의 시계에는 달력 기능을 빠르게 설정하지 않는 시간 창(이를 "제외 기간"이라고 함)이
+                                있습니다.</p>
+                            <p>따라서 무브먼트 손상 위험을 방지하기 위해 먼저 사용 설명서에 나와 있는 시계의 정확한 제외 기간을 확인하는 것이 중요합니다. 사용 설명서는 이 페이지 상단에서
+                                보증서에 있는 모델 번호(예: M0A10402) 또는 시계 케이스백에 새겨진 번호를 입력하여 다운로드할 수 있습니다. 시계 사용 설명서에 제외 기간이 명시되어
+                                있지 않은 경우, 언제든지 캘린더를 설정할 수 있습니다.
+
+                            </p>
+                        </li>
+                        <li>
+                            <h3>충격과 진동</h3>
+                            <p>모든 보메 & 메르시에 시계는 공식 NIHS(스위스 시계 산업 표준)에 따라 테스트되었으며, 최대 5,000g의 충격에도 견딜 수 있습니다. 하지만 강한
+                                충격이나 반복적이고 잦은 진동은 피해야 합니다.
+
+                            </p>
+                        </li>
+                        <li>
+                            <h3>배터리 교체</h3>
+                            <p>배터리 수명은 일반적으로 시계 모델에 따라 3~6년입니다.</p>
+                            <p>중앙 초침이 장착된 대부분의 쿼츠 시계에는 배터리 부족(EOL – 수명 종료)을 표시하는 시스템이 장착되어 있습니다. 배터리가 고갈되기 약 2주 전에 중앙
+                                초침이 4초마다 점프하기 시작하여 배터리를 교체해야 한다는 신호를 보냅니다.</p>
+                            <p>누출로 인해 무브먼트가 손상될 수 있으므로 소모된 배터리를 시계 내부에 넣지 마십시오.</p>
+                            <p>배터리는 인증된 시계 기술자에게 교체를 의뢰하여 시계의 방수 기능과 무브먼트 상태를 점검받는 것이 좋습니다.</p>
+                        </li>
+                        <li>
+                            <h3>자성</h3>
+                            <p>우리 주변 환경은 다양한 원인으로 인한 자기장 간섭에 점점 더 취약해지고 있으며, 이는 보메 메르시에 시계의 작동에 영향을 미칠 수 있습니다. 따라서 자석,
+                                전자 기기, 핸드백 잠금장치, iPad/iPhone 케이스 등과 같은 전자기파원에 시계를 가까이 두거나 직접 접촉하지 않도록 최대한 주의하시기 바랍니다.
+                            </p>
+                            <b>Baumatic 무브먼트 가 장착된 시계에 대한 참고 사항</b>
+                            <p>실리콘(Powerscape® 기술이 적용된 이스케이프먼트 시스템), 무브먼트의 민감한 부분에 비강자성 요소, ChromeCore 케이싱 링을 사용하여
+                                Baumatic 무브먼트가 장착된 시계는 일상 생활에서 발생하는 자기장에 강합니다(1,500가우스 이상 = 현재 ISO 764/NIHS 90.10 기준보다
+                                25배 높음).</p>
+                        </li>
+                        <li>
+                            <h3>온도</h3>
+                            <p>시계를 극한의 온도(60ºC/140ºF 이상 또는 0ºC/32ºF 미만)나 심한 온도 변화에 노출시키지 마세요.</p>
+                        </li>
+                        <li>
+                            <h3>화학 제품</h3>
+                            <p>팔찌, 케이스 또는 개스킷을 손상시킬 수 있는 용매, 세제, 향수 또는 화장품과의 직접적인 접촉을 피하십시오.</p>
+                        </li>
+                        <li>
+                            <h3>세척</h3>
+                            <p>방수 케이스와 메탈 브레이슬릿의 광택을 유지하려면 부드러운 칫솔과 따뜻한 비눗물을 사용하세요. 세척이 끝나면 깨끗한 물로 깨끗이 헹구고 부드러운 천으로 닦아
+                                말려주세요. 바다나 수영장에서 수영한 후에도 같은 방법으로 세척하는 것이 좋습니다.</p>
+                            <p>시계를 청소하기 전에 크라운이 단단히 닫혀 있는지 확인하세요(모델에 따라 눌려 있거나 조여져 있는지).</p>
+                        </li>
+                        <li>
+                            <h3>스트랩</h3>
+                            <b>가죽 스트랩</b>
+                            <p>가죽 스트랩의 수명은 사용 조건과 착용 빈도에 따라 달라집니다.</p>
+                            <p>예를 들어, 스트랩은 피부의 산성도, 땀, 온도 변화, 햇빛에 장시간 노출, 피부 크림, 화장품 등의 영향을 받습니다.</p>
+                            <p>스포츠 활동이나 물속으로의 침수 등 극한의 환경에서는 내구성이 상당히 떨어집니다.</p>
+                            <p>가죽 스트랩을 주문하려면 <a href="#">공인 판매점</a>에 문의 하거나 <a href="#">문의하기</a>를 눌러 주세요 .</p>
+                            <b>고무 스트랩</b>
+                            <p>고무 스트랩의 수명은 사용 조건과 착용 빈도에 따라 달라집니다.</p>
+                            <p>고무 스트랩을 오랫동안 사용하려면 기름이나 화장품에 닿지 않도록 하고 장시간 직사광선에 노출되지 않도록 주의하세요. 또한, 옷에 문지르면 변색(특히 흰색
+                                스트랩의 경우)되거나 조기에 손상될 수 있으므로 주의하세요. 또한, 고무 스트랩은 비눗물로 세척할 수 있습니다.</p>
+                            <p>고무 스트랩을 주문하려면 <a href="#">공인 판매점</a>에 문의 하거나 <a href="#">문의하기</a>를 눌러 주세요 .</p>
+                        </li>
+                        <li>
+                            <h3>진주</h3>
+                            <p>보메 메르시에는 부드러운 마른 천이나 깨끗한 물로 부드럽게 세척할 것을 권장합니다. 시계를 완전히 말린 후 보관하세요. 자개 장식과 향수나 바디로션을 함께
+                                사용하면 진주빛 반사에 악영향을 줄 수 있으므로 사용하지 않는 것이 좋습니다. 따라서 향수나 바디로션을 바른 후 시계를 착용하기 전에 약 10분 정도 간격을
+                                두세요. 자개 장식 시계는 부드러운 면 소재의 가방에 보관하는 것이 더 안전합니다.</p>
+                        </li>
+                        <li>
+                            <h3>청동</h3>
+                            <p>청동은 착용자의 생활 방식에 따라 시간이 지남에 따라 변하는 소재입니다. 특히 땀이나 바닷물과 같은 부식성 물질과 접촉하면 이 합금은 녹청색을 띠게 되어 시계의
+                                독특한 매력을 더합니다.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="service_list">
+                    <h2>다양한 서비스</h2>
+                    <div class="inner">
+                        <ul>
+                            <li class="active"><span>완벽한 서비스</span>
+                            </li>
+                            <li><span>방수 서비스</span>
+                            </li>
+                            <li><span>복구 서비스</span>
+                            </li>
+                            <li><span>배터리 서비스</span>
+                            </li>
+                            <div class="list_line"></div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service_txt">
+                    <div class="inner">
+                        <ul>
+                            <li class="service_txt_dep">
+                                <p>3~5년(Baumatic 모델의 경우 5~7년)마다 완전 서비스를 받는 것이 좋지만, 시계의 사용 방식과 착용 환경에 따라 달라질 수 있습니다.
+                                </p>
+                                <p>진단 후, 움직임이 더 이상 제대로 작동하지 않을 경우 이 서비스를 권장합니다.</p>
+                                <p>여기에는 다음과 같은 작업이 포함됩니다.</p>
+                                <ol>
+                                    <li>시계 분해</li>
+                                    <li> 무브먼트 오버홀: 분해, 세척, 마모된 부품 교체, 재조립 및 윤활</li>
+                                    <li>스틸 또는 옐로우/레드 골드 시계의 케이스(및 금속 브레이슬릿) 광택</li>
+                                    <li>케이스(및 금속 팔찌)의 초음파 세척</li>
+                                    <li>새로운 개스킷으로 케이스 재조립</li>
+                                    <li>필요하거나 고객의 요청에 따라 다른 부품을 교체합니다.
+                                        <p>스틸 나사, 크로노그래프 바늘(서비스 포함)</p>
+                                        <p>기타 바늘, 크리스탈, 크라운, 푸시 버튼, 다이얼,... (별도 청구)</p>
+                                    </li>
+                                    <li>시계 재조립</li>
+                                    <li>기술적 및 미적 최종 제어</li>
+                                </ol>
+                                <b>Baume & Mercier는 완전한 서비스 중에 수행된 모든 작업과 교체된 부품에 대해 12개월 보증을 제공합니다.</b>
+                            </li>
+                            <li class="service_txt_dep">
+                                <p>시계의 방수 기능은 영구적으로 보장되지 않습니다. 방수 기능을 담당하는 개스킷은 자연적인 노화뿐만 아니라, 와인딩 크라운의 정기적인 사용, 충격, 그리고
+                                    땀, 화장품 사용, 온도 변화 등의 요인에 의해 물리적으로 손상될 수 있습니다.</p>
+                                <p>매년 시계의 방수 기능을 점검하고, 시계가 더 이상 방수 기능을 발휘하지 못할 경우 즉시 이 서비스를 실시할 것을 권장하는 이유가 바로 여기에 있습니다.
+                                </p>
+                                <p>이 서비스에는 다음과 같은 작업이 포함됩니다.</p>
+                                <ol>
+                                    <li>케이스 분해</li>
+                                    <li>케이스 및 금속 팔찌의 초음파 세척</li>
+                                    <li>새로운 개스킷으로 케이스 재조립</li>
+                                    <li>Quartz 모델 배터리 교체</li>
+                                    <li>필요하거나 고객의 요청에 따라 다른 부품 교체: 크리스탈, 크라운, 푸시 버튼 등 (별도 청구)</li>
+                                    <li>기술적 및 미적 최종 제어</li>
+                                </ol>
+                                <b>Baume & Mercier는 방수 서비스 중에 수행된 모든 작업과 교체된 부품에 대해 12개월 보증을 제공합니다.</b>
+                            </li>
+                            <li class="service_txt_dep">
+                                <p>시계에는 감정적 가치가 있을 수 있다는 것을 알고 계시듯이, Baume & Mercier는 시계의 연식이나 상태에 관계없이 모든 시계를 수리해드립니다.
+                                </p>
+                                <p>빈티지 시계에 대한 서비스는 일반적으로 현대 모델에 대한 서비스보다 더 섬세하며 복원이 필요할 수 있습니다.</p>
+                                <p>가장 오래된 모델을 복원하는 기술은 매우 드물기 때문에 이러한 시계는 스위스에 있는 Baume & Mercier 시계 제작 워크숍으로 반납하여 전문 시계
+                                    장인이 독점적으로 수리해야 하며 표준 서비스(최소 8주)보다 시간이 더 오래 걸립니다.</p>
+                                <b>Baume & Mercier는 복구 서비스 중에 수행된 모든 작업과 교체된 부품에 대해 12개월 보증을 제공합니다.</b>
+                            </li>
+                            <li class="service_txt_dep">
+                                <p>시계 수리공은 진단 결과 배터리가 소진되었고 무브먼트와 개스킷이 시계의 정밀성과 방수 기능을 보장하는 양호한 상태인 경우 배터리 서비스를 권장할
+                                    것입니다.</p>
+                                <p>시계의 성능에 따라 3~6년에 한 번씩 배터리 서비스를 받아야 합니다.</p>
+                                <p>이 서비스에는 다음과 같은 작업이 포함됩니다.</p>
+                                <ol>
+                                    <li>케이스백 개구부</li>
+                                    <li>배터리 교체</li>
+                                    <li>케이스백 및 크라운 튜브 개스킷 교체</li>
+                                    <li>케이스백 클로징</li>
+                                    <li>기술적 및 미적 최종 제어</li>
+                                </ol>
+                                <b>Baume & Mercier는 배터리 서비스 중에 수행된 모든 작업과 교체된 부품에 대해 12개월 보증을 제공합니다.</b>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="enquirus">
+                    <div class="inner">
+                        <h2>도난당하거나 분실된 시계</h2>
+                        <p>보메 메르시에는 시계 및 보석 범죄에 대응하기 위해 엔퀴러스(Enquirus) 와 협력하고 있습니다 . 엔퀴러스는 귀중품을 안전하게 보호하는 디지털 금고, 사용하기
+                            쉬운 도난
+                            신고 시스템, 그리고 중고 시장에서 구매한 물품을 조사할 수 있는 검색 기능을 제공합니다. 시계 및 보석 제조업체, 전 세계 법 집행 기관 및 보험 회사와 협력하여
+                            설계된
+                            엔퀴러스는 소유주가 무료로 등록, 신고 및 검색을 할 수 있도록 지원합니다. 이를 통해 시계와 보석을 더욱 쉽게 추적하고 정당한 소유자에게 반환할 수 있습니다.
+                        </p>
+                        <p>오늘 등록하시면 귀하의 컬렉션이 전 세계 어디에서나 접근할 수 있는 안전한 금고에 안전하게 보관됩니다. </p>
+                        <a href="#"><span>ENQUIRUS</span></a>에서 자세히 알아보세요
+                    </div>
+                </div>
+                <div class="other_service">
+                    <div class="inner">
+                        <h2>다른 서비스</h2>
+                        <ul>
+                            <li><a href="#">
+                                    <div><img src="../img/main_service_2.png" alt=""></div><span>문의하기</span>
+                                </a></li>
+                            <li><a href="#">
+                                    <div><img src="img/service_center.png" alt=""></div><span>서비스 센터 찾기</span>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="inner">
+            <div class="footer_txt">
+                <div class="footer_left">
+                    <p>Ⓒ Baume & Mercier 2025</p>
+                    <button class="call"></button>
+                    <div>+41 22 580 29 48</div>
+                </div>
+                <a href="#"><img src="../img/imgi_21_small-logo-white.png" alt=""></a>
+                <div class="footer_right">
+                    <p>뉴스레터 구독하기</p>
+                    <form action="#">
+                        <fieldset>
+                            <legend>뉴스레터 구독</legend>
+                            <input type="email" placeholder="이메일">
+                            <button>>></button>
+                        </fieldset>
+                    </form>
+                    <div class="sns_list">
+                        <div>소셜 네트워크</div>
+                        <a href="#"><img src="../img/facebook.svg" alt="페이스북"></a>
+                        <a href="#"><img src="../img/youtube.svg" alt="유튜브"></a>
+                        <a href="#"><img src="../img/pinterest.svg" alt="핀터레스트"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
